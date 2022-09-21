@@ -13,29 +13,6 @@
 // valid і invalid, які ми вже додали у вихідні файли
 // завдання.
 
-//  <style>
-//       #validation-input {
-//         border: 2px solid #bdbdbd;
-//       }
-
-//       #validation-input.valid {
-//         border-color: #4caf50;
-//       }
-
-//       #validation-input.invalid {
-//         border-color: #f44336;
-//       }
-//     </style>
-
-{
-  /* <input
-  type="text"
-  id="validation-input"
-  data-length="6"
-  placeholder="Please enter 6 symbols"
-/>; */
-}
-
 const inputEl = document.querySelector('input');
 
 const symbolsEl = document.querySelector('input[data-length="6"]');
