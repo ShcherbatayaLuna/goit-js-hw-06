@@ -9,7 +9,7 @@ function getRandomHexColor() {
 
 function createBoxes(amount) {
   const array = [];
-  // amount = inputEl.value;
+
   for (let i = 0; i < amount; i += 1) {
     const boxNew = document.createElement('div');
     boxNew.style.width = 30 + 10 * i + 'px';
